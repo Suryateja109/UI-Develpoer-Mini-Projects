@@ -1,0 +1,68 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    background-color: lavenderblush;
+    border: solid red 2px;
+    min-height: 100%;
+}
+
+.surya{
+    text-align: center;
+    margin: 0px;
+}
+
+.surya img{
+    height: 270px;
+    width: 270px;
+}
+
+.mahi{
+    margin: 3px;
+    text-align: center;
+    
+}
+
+.mahi img{
+    height: 290px;
+    width: 290px;
+}
+
+.mahi h1{
+    margin-top: 5px;
+}
+
+.sudheer{
+    
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.sudheer img{
+    width: 290px; 
+}
+
+.sudheer h1{
+    margin-top: 45px;
+}
+
+.s{
+    border: solid red 2px;
+    background-color: aqua;
+    font-size: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 2px;
+}
+
+.s:hover{
+    background-color: lavender;
+    cursor: pointer;
+    border: solid blue 2px;
+    font-size: 18px;
+    color: black;
+}
