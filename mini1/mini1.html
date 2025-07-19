@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="mini1.css">
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <img src="https://m.media-amazon.com/images/I/51gnyej7aZL.png" alt="https://m.media-amazon.com/images/I/51gnyej7aZL.png">
+            <h1>Tip Calculator</h1>
+        </div>
+
+        <div class="s">
+            <div class="s1">
+                <p class="p" >BILL AMOUNT</p>
+                <input class="i" type="text" name="" id="ba">
+                <p class="p1"></p>
+                <p class="p">TIP AMOUNT</p> 
+                <input class="i" type="text" name="" id="ta" readonly>
+            </div>
+
+            <div class="s2">
+                <p class="p">PERCENTAGE TIP</p>
+                <input class="i" type="text" name="" id="pt">
+                <P class="p1"></P>
+                <p class="p">TOTAL</p>
+                <input class="i" type="text" name="" id="t" readonly>
+            </div>
+        </div>
+
+        <div class="b">
+            <button class="button" onclick="CalculateTip()" id="button" >CALCULATE</button>
+            <p class="error" id="error"></p>
+        </div>
+    </div>
+
+    <script src="mini1.js"></script>
+</body>
+</html>
